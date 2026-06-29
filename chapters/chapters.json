@@ -1,0 +1,9 @@
+[
+  { "separator": "— Part I —" },
+  "basiclinuxcommands.md",
+  "dhcpserver.md",
+  "dnsserver.md",
+  "NAT.md",
+    { "separator": "— Part II —" },
+  "glossary.md"
+]

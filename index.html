@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+  <title>Book</title>
+
+ <!-- Highlight.js CSS theme -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css" integrity="sha512-BrOPA520KmDMqieeM7XFe6a3u3Sb3F1JBaQnrIAmWg3EYrciJ+Qqe6ZcKCdfPv26rGcgTrJnZ/IdQEct8h3Zhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/style.css" />
+<!-- Load libraries -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+ 
+
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <button class="hamburger" id="sidebar-toggle" aria-label="Toggle table of contents" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <h1 id="book-title"></h1>
+    </header>
+  <!-- Overlay for closing sidebar on mobile -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Chapters</h2>
+        <button class="sidebar-close" id="sidebar-close" aria-label="Close menu">&#x2715;</button>
+      </div>
+        <ul id="toc">
+        </ul>
+    </aside>
+
+    <main class="content markdown-body" id="content">
+    </main>
+  </div>
+  <footer class="footer">
+    <i><p id="book-copyright"></p></i>
+  </footer>
+</div>
+
+  <!-- Script to load and display markdown -->
+    <script src="kmbooks_js/main.js"></script>
+
+</body>
+</html>
+
+
