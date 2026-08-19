@@ -2,7 +2,7 @@
 
 A concise guide to essential Linux tasks and server setups.
 
-<img src="cover_image.jpeg" alt="Cover Image" width="500" >
+<img src="cover_image.jpeg" alt="Cover Image" width="100%" >
 
 ---
 
