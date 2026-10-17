@@ -4,5 +4,8 @@
   "year": "2024",
   "copyright": "© 2020 Khaled Mahmud",
   "version": "1.1",
-  "description": "A concise practical guide to Linux Tasks."
+  "description": "A concise practical guide to Linux Tasks.",
+  "homeUrl": "https://khaledmahmudkm.github.io/stacks/",
+  "logo": "logo.svg",
+  "math": false
 }
